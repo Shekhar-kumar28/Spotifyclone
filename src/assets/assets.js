@@ -25,15 +25,15 @@ import clock_icon from './clock_icon.png'
 import img1 from './img1.jpeg'
 import img2 from './img2.jpeg'
 import img3 from './img3.jpeg'
-import img4 from './img4.jpg'
-import img5 from './img5.jpg'
+import img4 from './img4.jpeg'
+import img5 from './img5.jpeg'
 import img6 from './img6.jpg'
 import img7 from './img7.jpeg'
 import img8 from './img8.jpg'
 import img9 from './img9.jpg'
 import img10 from './img10.jpg'
 import img11 from './img11.jpg'
-import img12 from './img12.jpg'
+import img12 from './img12.jpeg'
 import img13 from './img13.jpg'
 import img14 from './img14.jpeg'
 import img15 from './img15.jpg'
@@ -41,6 +41,11 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import song4 from './song 4.mp3'
+import song5 from './song 5.mp3';
+import song6 from './song 6.mp3';
+import song7 from './song 7.mp3';
+import song8 from './song 8.mp3';
 
 export const assets = {
     bell_icon,
@@ -143,7 +148,7 @@ export const songsData = [
         id:3,
         name: "Song Four",
         image: img4,
-        file:song1,
+        file:song4,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:50"
     },
@@ -151,7 +156,7 @@ export const songsData = [
         id:4,
         name: "Song Five",
         image: img5,
-        file:song2,
+        file:song5,
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:10"
     },
@@ -159,7 +164,7 @@ export const songsData = [
         id:5,
         name: "Song Six",
         image: img14    ,
-        file:song3,
+        file:song7,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:45"
     },
@@ -167,7 +172,7 @@ export const songsData = [
         id:6,
         name: "Song Seven",
         image: img7,
-        file:song1,
+        file:song6,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:18"
     },
@@ -175,7 +180,7 @@ export const songsData = [
         id:7,
         name: "Song Eight",
         image: img12,
-        file:song2,
+        file: song8,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35"
     }
